@@ -1,0 +1,936 @@
+/* Header */
+.panel_identity {
+  font-size: 16px;
+  text-transform: uppercase;
+  padding: 5px;
+  color: rgb(131, 131, 131);
+}
+/* .upperNav{
+  max-height: 40px;
+  background-color: antiquewhite !important;
+} */
+
+/* upperNavBar */
+.upperNav li {
+  margin-left: 10px;
+  /* margin-top: 5px; */
+  float: right;
+}
+.upperNav li a {
+  padding: 5px;
+}
+.upperNav li a:hover {
+  color: white !important;
+  background-color: rgb(131, 131, 131);
+  padding: 5px;
+}
+
+/* NavBar */
+
+/* logo */
+.logo {
+  max-width: 180px;
+  max-height: 70px;
+}
+
+/* Navbar Nav */
+
+.navbar-nav .nav-item a {
+  /* background-color: antiquewhite; */
+  margin-left: 5px;
+  margin-bottom: 5px;
+  padding: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  /* background-color: red; */
+}
+.navbar .navbar-nav a:hover {
+  color: white !important;
+  background-color: rgb(131, 131, 131) !important;
+  /* background-color:rgb(245, 211, 19) !important; */
+  border: none;
+}
+
+.navbar .container-fluid form .loginBtns:hover {
+  color: white !important;
+  background-color: rgb(131, 131, 131) !important;
+  /* padding: 5px !important; */
+}
+.active {
+  color: white !important;
+  background-color: rgb(131, 131, 131);
+  /* padding: 0; */
+}
+
+/* Navbar tabs*/
+#navbarSupportedContent {
+  margin-top: 5px;
+}
+
+/* DropDown */
+.dropdown-menu {
+  background-color: #fbfbfb;
+  border: none;
+  border-radius: 0;
+}
+.dropdown-menu li a {
+  margin: 5px;
+}
+
+/* Login btns */
+.navbar .container-fluid form .loginBtns {
+  text-decoration: none;
+  color: black;
+  height: 35px;
+  width: 100px;
+  padding-top: 3px;
+  text-align: center;
+  /* background-color: aqua; */
+  margin-right: 5px;
+}
+/* vertical bar */
+.navbar .container-fluid form .bar {
+  margin: 0px 5px;
+}
+
+/* form input */
+.form-control {
+  font-size: 15px;
+  height: 35px;
+  /* width: 50%; */
+  /* padding: 1; */
+}
+
+form .btn {
+  /* height: 30px; */
+  /* width: 50px !important; */
+  padding: 0px 10px !important;
+  /* margin: 2px; */
+  font-size: 20px;
+  height: 35px;
+}
+
+/* Header Ends */
+
+/* Footer Now */
+/* .footerDiv{
+    background-color: aqua !important;
+} */
+
+.footerDiv .card {
+  border: none;
+  border-radius: 0;
+}
+.footerDiv .card .list-group-item {
+  border: none;
+  border-radius: 0;
+}
+
+.footerDiv .card .list-group-item a {
+  text-decoration: none;
+  color: black;
+  padding: 5px;
+}
+.footerDiv .card .list-group-item a:hover {
+  color: white !important;
+  background-color: rgb(131, 131, 131);
+  padding: 5px;
+}
+
+.footerDiv .footerCopyRights p {
+  color: white !important;
+  background-color: rgb(131, 131, 131);
+  padding: 5px;
+}
+
+/*%%%%%%%%%%%%%%%%%%% Main Body  Now %%%%%%%%%%%%%%%%%%%%%%%*/
+/* Blogger Details */
+.Main-blogger-details .navbar {
+  margin-top: 3px;
+  background-color: rgb(131, 131, 131);
+  color: white;
+}
+.Main-blogger-details .navbar .navbar-brand {
+  background-color: rgb(131, 131, 131);
+}
+
+.Main-blogger-details .navbar .blogger-name {
+  font-size: 22px;
+  color: #fbfbfb;
+}
+/* .Main-blogger-details .navbar .blogger-name a{
+  text-decoration: none;
+  color: white;
+  padding: 5px;
+} */
+.Main-blogger-details .navbar .blogger-name:hover {
+  color: whitesmoke;
+}
+
+.Main-blogger-details .navbar .follow-btn {
+  color: black;
+  border: none;
+  padding: 5px;
+}
+.Main-blogger-details .navbar .follow-btn:hover {
+  color: white;
+}
+
+.Main-blogger-details .navbar .navbar-brand {
+  margin: 10px;
+}
+.Main-blogger-details .navbar .navbar-brand img {
+  width: 60px;
+  height: 60px;
+  margin-left: 10px;
+  border-radius: 50%;
+}
+
+/* nav of Blogger */
+
+.Main-blogger-details a {
+  padding: 5px;
+  font-size: 16px;
+  /* width: 100px; */
+  cursor: pointer;
+  background-color: rgb(233, 233, 233);
+  color: black;
+  font-style: italic;
+}
+.navbar-nav .nav-item a:hover {
+  color: white !important;
+  background-color: rgb(131, 131, 131) !important;
+  /* border: 1px solid white; */
+  /* padding: 5px !important; */
+}
+.active {
+  color: white !important;
+  background-color: rgb(131, 131, 131) !important;
+  border: 1px solid white;
+  padding: 0;
+}
+
+.Main-blogger-details .blog-name {
+  /*background-color: red !important;*/
+  margin-right: 13px !important;
+}
+.Main-blogger-details .blog-name h3 {
+  color: white;
+  border: 1px solid white;
+  font-size: 2.3em;
+  padding: 5px;
+}
+.Main-blogger-details .blog-name button {
+  color: black;
+  border: none;
+  padding: 5px;
+}
+
+.Main-blogger-details .blog-name button:hover {
+  color: white;
+}
+/* ################ Main Area Now ################ */
+
+/* ################ Side bar Now ################ */
+.sideBar {
+  /* background-color:aquamarine !important; */
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-top: 2px solid rgb(131, 131, 131) !important;
+  border-right: 1.4px solid rgb(131, 131, 131) !important;
+}
+.sideBar h3 {
+  font-size: 22px;
+}
+
+.sideBar .sideBar-navigations .nav .nav-item .nav-link {
+  color: black;
+}
+
+.sideBar .sideBar-navigations .nav .nav-item:hover {
+  border: 2px solid rgb(131, 131, 131);
+  color: white;
+}
+
+.sideBar .sideBar-navigations .nav .active .nav-link {
+  border: 2px solid rgb(131, 131, 131);
+  color: white;
+}
+
+/* About us Page SideBar Css */
+.sideBar .sideBar-navigations .activity-btns {
+  background-color: whitesmoke !important;
+  padding: 5px;
+  text-decoration: none;
+  color: black;
+}
+.sideBar .sideBar-navigations .activity-btns:hover {
+  background-color: rgb(131, 131, 131) !important;
+  color: white;
+}
+/* Contact us Page SideBar Css */
+.sideBar .form-group .form-control {
+  width: 100%;
+}
+.sideBar .activity-btns {
+  padding: 5px;
+}
+.sideBar .activity-btns:hover {
+  background-color: rgb(131, 131, 131) !important;
+  color: white;
+}
+
+/* $$$$$$$$ Admin Profile Css $$$$$$$$$ */
+.side-bar .blogger-profile .blogger-profile-table {
+  background-color: rgb(131, 131, 131) !important;
+  margin: 40px;
+}
+.side-bar .blogger-profile-table th {
+  color: #fbfbfb;
+}
+.side-bar .blogger-profile-table th .activity-btns {
+  border: none;
+  background-color: whitesmoke !important;
+  color: black;
+  padding: 5px;
+}
+.side-bar .blogger-profile-table th .activity-btns:hover {
+  background-color: rgb(131, 131, 131) !important;
+  color: white;
+  border: 1px solid white;
+}
+
+/* &&&&&&&&&&&&&&&&&&&&&&&&&  Main Activitiy Aera &&&&&&&&&&&&&&&&&&&&&&&&&&& */
+.activity-area {
+  margin: 10px 0px;
+  border-top: 2px solid rgb(131, 131, 131);
+}
+.activity-area .activity-btns {
+  color: black;
+  border: none;
+  padding: 5px;
+}
+.activity-area .activity-btns:hover {
+  color: white;
+  background-color: rgb(131, 131, 131);
+}
+
+.activity-area .activity-head button {
+  /* justify-content: end; */
+  float: right;
+  margin-right: 10px;
+}
+
+.activity-area .activity-body .table-heading {
+  margin: auto;
+  font-size: 25px;
+  text-align: center;
+  width: 100%;
+}
+/* Images of Posts in Admin Panel */
+.activity-area .activity-body tbody .list_post_images {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+}
+
+/* Images of User Profiles in Admin Panel */
+.activity-area .activity-body tbody .list_user_images {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+}
+/* Images of blog Background in Admin Panel */
+.activity-area .activity-body tbody .blog_bg_img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+}
+/* @@@@@@@@@@@ Admin Profile Form Area  @@@@@@@@@@@2 */
+/* .form-area{
+  width: 90%;
+} */
+.form-area .activity-btns {
+  border: none;
+  padding: 5px;
+}
+.form-area .activity-btns:hover {
+  background-color: rgb(131, 131, 131);
+  color: #fbfbfb;
+}
+/*************** User Panel Home Page CSS **************/
+
+/*######## Home page Css #########*/
+
+.quoteDiv {
+  /* font-size: 30px; */
+  text-transform: capitalize;
+  background-color: rgb(131, 131, 131) !important;
+  color: #ffff;
+}
+.post-activity .activity-head {
+  background-color: rgb(131, 131, 131) !important;
+  color: #ffff;
+  font-variant: small-caps;
+}
+
+.post-activity .post-body .post-area .card-body #more {
+  display: none;
+}
+
+.post-activity .post-body table .post-img img {
+  height: 260px !important;
+  width: 100%;
+}
+
+.post-activity .post-body table .post-heading h5 {
+  font-weight: bold !important;
+  font-size: larger !important;
+  /*margin: 0*/
+  margin-left: 5px;
+}
+.post-activity .post-body table .post-details {
+  /*margin-left: 5px !important;*/
+  /*background-color: red;*/
+  padding-left: 15px;
+  /*text-decoration: none;*/
+}
+.post-activity .post-body table .read-comment a {
+  /*color: red;*/
+  /*background-color: red;*/
+  text-decoration: none;
+}
+
+.post-activity .post-body table .post-text h5 {
+  font-size: 01.25em;
+  /*margin-left: 5px;*/
+}
+.post-activity .post-body table .post-text {
+  /*background-color: red;*/
+  /*margin-left: 5px !important;*/
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.post-activity .post-body table .read-more-btn {
+  color: black !important;
+  background-color: #ffff;
+  border: 1px solid rgb(131, 131, 131);
+  padding: 5px;
+  /*margin-left: 15px;*/
+}
+.post-activity .post-body table .read-more-btn:hover {
+  background-color: rgb(131, 131, 131) !important;
+  color: white !important;
+}
+
+.post-activity .post-body table .write-comment button {
+  background-color: #ffff;
+  border: 1px solid rgb(131, 131, 131);
+}
+.post-activity .post-body table .write-comment button:hover {
+  background-color: rgb(131, 131, 131);
+  color: #ffff;
+}
+
+/*Commens of post*/
+.post-activity .post-body .watch-comment .comment-img {
+  width: 70px;
+  height: 70px;
+}
+
+/*@@@@@@@@@@ user Panel home page Side bar @@@@@@@@@@*/
+
+.post-sideBar {
+  background-color: whitesmoke;
+}
+.post-sideBar .activity-head {
+  background-color: rgb(131, 131, 131);
+  color: #ffff;
+  font-variant: small-caps;
+}
+.post-sideBar .post_sidebar_div {
+  margin: 5px !important;
+}
+.post-sideBar .post_sidebar_div .card {
+  border: 1px solid rgb(131, 131, 131);
+  margin-bottom: 5px;
+}
+.post-sideBar .post_sidebar_div .card .img-div img {
+  width: 100%;
+  height: 100%;
+  object-fit:fill
+}
+
+/*user Panel Home page css Ends*/
+
+/*$$$$$$$$$$ login Page Css $$$$$$$$$$$$$*/
+.login-div {
+  margin-top: 100px !important;
+  /* border: 1px solid rgb(131, 131, 131); */
+  /* margin: 100px; */
+}
+.login-div .login-side-img {
+  background-color: rgb(131, 131, 131) !important;
+  /* background-color:aqua !important; */
+  height: 393px !important;
+  width: 50%;
+  /* padding: 5px; */
+}
+.login-div .login-side-img img {
+  width: 80%;
+  margin-left: 45px;
+}
+.login-div .login-form {
+  background-color: whitesmoke !important;
+  width: 50%;
+}
+.login-div .login-form form {
+  background-color: whitesmoke !important;
+  width: 80%;
+  margin-left: 50px;
+  padding: 5px;
+}
+.login-div .login-form .login-btn button {
+  background-color: rgb(131, 131, 131);
+}
+.login-div .login-form .login-btn button:hover {
+  background-color: #ffff;
+  color: black;
+  border: 1px solid rgb(131, 131, 131);
+}
+.login-footer {
+  background-color: rgb(131, 131, 131);
+  margin-top: 15px;
+}
+/*&&&&&&&&&&&& Register Page Css &&&&&&&&&&&&&*/
+.register-account {
+  margin: 0px 5px !important;
+}
+.register-account .register-side-img {
+  background-color: rgb(131, 131, 131);
+}
+.register-account .register-main-div form table .register-btn {
+  border: 1px solid rgb(131, 131, 131);
+  border-radius: 0;
+}
+.register-account .register-main-div form table .register-btn:hover {
+  background-color: rgb(131, 131, 131);
+  color: #ffff;
+}
+
+/*######################## Media Query Now ######################*/
+/* %%%%%%%%%%%%%%% medium Devices only %%%%%%%%%%%%%%%% */
+@media (min-width: 992px) and (max-width: 1200px) {
+  /* Blogger Details nav */
+  /* logo */
+  .logo {
+    max-width: 150px;
+    max-height: 60px;
+  }
+  /* NavBar Navigations */
+  .navbar-nav .nav-item a {
+    font-size: 13px;
+  }
+  /* login Btns in Navbar */
+  .navbar .container-fluid form .loginBtns {
+    font-size: 13px;
+    /* margin-right: 5px; */
+  }
+
+  /* Home Page CSS */
+  .quoteDiv .blockquote {
+    font-size: 15px;
+  }
+  .quoteDiv .blockquote .blockquote-footer {
+    font-size: 11px;
+  }
+
+  /* form input */
+  .form-control {
+    font-size: 13px;
+    height: 28px;
+    margin: auto;
+  }
+  form .btn {
+    font-size: 16px;
+    height: 28px;
+    padding: 0;
+  }
+
+  /* Blogger Name */
+  .Main-blogger-details .navbar .blogger-name {
+    font-size: 18px;
+  }
+  /* Blogger Nav follow Button */
+  .Main-blogger-details .navbar .follow-btn {
+    font-size: 12px;
+  }
+  /* Blogger nav Profile Pic */
+  .Main-blogger-details .navbar .navbar-brand img {
+    width: 65px;
+    height: 65px;
+  }
+  /* Blogger Naviagtions */
+  .Main-blogger-details .navbar .navbar-nav .nav-item a {
+    font-size: 12px;
+    /* width: 100%; */
+  }
+  /* Blog Name */
+  /* .Main-blogger-details .blog-name {
+    margin-left: 65.5%;
+    padding: 15px;
+  } */
+  .Main-blogger-details .blog-name h3 {
+    font-size: 2em;
+    /* width:100px; */
+    text-align: center;
+    padding: 5px;
+  }
+  /* Customer Blog Setting */
+  .Main-blogger-details .blog-name button {
+    font-size: 12px;
+  }
+  /* &&&&&&&&&&&&&&&&&&&&&&&&&  Main Activitiy Aera &&&&&&&&&&&&&&&&&&&&&&&&&&& */
+  .activity-area .activity-btns {
+    font-size: 14px;
+    color: black;
+    border: none;
+    padding: 5px;
+  }
+  .activity-area .activity-body .table-heading {
+    font-size: 20px;
+    text-align: center;
+  }
+  /* @@@@@@@@@@@ Admin Profile Form Area  @@@@@@@@@@@2 */
+  .form-area table {
+    width: 100% !important;
+  }
+  /* ############ User Panel Home page Css ############## */
+  .post-activity .post-body .post-area .card-body .card-title {
+    font-size: 18px;
+  }
+  .post-activity .post-body .post-area .card-body .card-title .post-msg {
+    font-size: 13px !important;
+  }
+
+  .post-activity .post-body .post-area .card-body .read-more-btn {
+    font-size: 14px;
+    padding: 5px;
+    color: black;
+    border: 1px solid rgb(131, 131, 131);
+  }
+}
+/* &&&&&&&&&&&&&&&&&& Small Devices only &&&&&&&&&&&&&&&&&& */
+
+@media (min-width: 768px) and (max-width: 991px) {
+  /* Home Page CSS */
+  .quoteDiv .blockquote {
+    font-size: 15px;
+  }
+  .quoteDiv .blockquote .blockquote-footer {
+    font-size: 11px;
+  }
+
+  /* Blogger Nav Button */
+  .Main-blogger-details .navbar .follow-btn {
+    font-size: 12px;
+    margin-right: 15px;
+  }
+  /* Blogger Brand */
+  /* .Main-blogger-details .navbar{
+    display:flex !important;
+  } */
+
+  /* .Main-blogger-details .navbar .navbar-brand{
+    justify-content: end !important;
+  } */
+
+  /* Blogger Naviagtions */
+  .Main-blogger-details .navbar .navbar-nav .nav-item a {
+    font-size: 12px;
+    text-align: center;
+    width: 100%;
+    margin: 0;
+  }
+  /* Blog Name */
+  .Main-blogger-details .blog-name {
+    margin-left: 13px;
+  }
+  .Main-blogger-details .blog-name h3 {
+    font-size: 2em;
+    width: 100%;
+    text-align: center;
+    padding: 5px;
+  }
+
+  /* ################ Main Area Now ################ */
+  /* ################ Side bar Now ################ */
+  .sideBar {
+    border: none !important;
+    border-top: 2px solid rgb(131, 131, 131) !important;
+  }
+
+  /* &&&&&&&&&&&&&&&&&&&&&&&&&  Main Activitiy Aera &&&&&&&&&&&&&&&&&&&&&&&&&&& */
+  .activity-area .activity-head button {
+    float: right;
+    clear: auto;
+  }
+  .activity-area .activity-body {
+    float: left;
+    width: 100%;
+  }
+  /* Contact Us Activity Area Css */
+  .activity-area .blogger-contact {
+    margin-left: 35px;
+    font-size: 15px;
+  }
+  .activity-area .blogger-contact h5 {
+    font-size: 18px;
+  }
+  /* .activity-area .blogger-img {
+    background-color: antiquewhite;
+  } */
+  .activity-area .blogger-img img {
+    margin: 0;
+    margin-top: 10px !important;
+    width: 100px !important;
+  }
+  /*$$$$$$$$$$ login Page Css $$$$$$$$$$$$$*/
+  .login-div .login-side-img {
+    height: 431px;
+    width: 100%;
+    /* padding: 5px; */
+  }
+  .login-div .login-side-img img {
+    width: 90%;
+    /* margin-left: 45px; */
+  }
+  .login-div .login-form {
+    width: 100%;
+    height: 550px;
+    font-size: 20px;
+  }
+  .login-div .login-form form {
+    width: 80%;
+    margin-left: 100px;
+    padding: 5px;
+    font-size: larger;
+  }
+  .login-div .login-form form input {
+    border: 1px solid black;
+    margin-bottom: 15px;
+    font-size: xx-large;
+  }
+}
+
+/* *********Extra Small Devices Only********* */
+@media (max-width: 767px) {
+  /* Home Page CSS */
+  .quoteDiv .blockquote {
+    padding: 2px;
+    font-size: 15px;
+  }
+  .quoteDiv .blockquote .blockquote-footer {
+    font-size: 11px;
+  }
+  /* Blogger Nav follow Button */
+  .Main-blogger-details .navbar .follow-btn {
+    font-size: 12px;
+    margin-right: 15px;
+  }
+  /* Blogger Naviagtions */
+  .Main-blogger-details .navbar .navbar-nav .nav-item a {
+    font-size: 12px;
+    text-align: center;
+    width: 100%;
+    margin: 0;
+  }
+  /* Blog Name */
+  .Main-blogger-details .blog-name {
+    margin-left: 13px;
+  }
+  .Main-blogger-details .blog-name h3 {
+    font-size: 2em;
+    width: 100%;
+    text-align: center;
+  }
+  /* ################ Main Area Now ################ */
+  /* ################ Side bar Now ################ */
+  .sideBar {
+    border: none !important;
+    border-top: 2px solid rgb(131, 131, 131) !important;
+  }
+  /* &&&&&&&&&&&&&&&&&&&&&&&&&  Main Activitiy Aera &&&&&&&&&&&&&&&&&&&&&&&&&&& */
+  .activity-area .activity-head button {
+    float: right;
+    clear: auto;
+  }
+  .activity-area .activity-body {
+    float: left;
+    width: 100%;
+  }
+  /* Contact Us Activity Area Css */
+  .activity-area .col-xsm-8 {
+    width: 66%;
+  }
+  .activity-area .col-xsm-4 {
+    width: 33%;
+  }
+  .activity-area .admin-email-nd-phone {
+    display: flex;
+  }
+  .activity-area .blogger-contact {
+    margin-left: 35px;
+    font-size: 13px;
+  }
+  .activity-area .blogger-contact h5 {
+    font-size: 15px;
+  }
+  /* .activity-area .blogger-img {
+    background-color: antiquewhite;
+  } */
+  .activity-area .blogger-img img {
+    margin: 0;
+    margin-top: 10px !important;
+    width: 80px !important;
+    height: 80px;
+  }
+  /*$$$$$$$$$$ login Page Css $$$$$$$$$$$$$*/
+  .login-div .login-side-img {
+    height: 431px;
+    width: 100%;
+    /* padding: 5px; */
+  }
+  .login-div .login-side-img img {
+    width: 90%;
+    /* margin-left: 45px; */
+  }
+  .login-div .login-form {
+    width: 100%;
+    height: 550px;
+    font-size: 20px;
+  }
+  .login-div .login-form form {
+    width: 80%;
+    margin-left: 100px;
+    padding: 5px;
+    font-size: larger;
+  }
+  .login-div .login-form form input {
+    border: 1px solid black;
+    margin-bottom: 15px;
+    font-size: xx-large;
+  }
+}
+
+/* *******Super Extra Small Devices Only (Iphone 4)******* */
+@media (max-width: 479px) {
+  /* logo */
+  .logo {
+    max-width: 140px;
+    max-height: 60px;
+  }
+  /* NavBar Navigations */
+  .navbar-nav .nav-item a {
+    font-size: 13px;
+    margin-top: 15px;
+  }
+  /* login Btns in Navbar */
+  .navbar .container-fluid form .loginBtns {
+    font-size: 13px;
+    margin-bottom: 5px;
+  }
+
+  /* form input */
+  .form-control {
+    font-size: 13px;
+    height: 25px;
+    margin: auto;
+  }
+  form .btn {
+    font-size: 14px;
+    margin-top: 7px;
+    height: 25px;
+    padding: 0;
+  }
+  /* Home Page CSS */
+  .quoteDiv .blockquote {
+    padding: 2px;
+    font-size: 15px;
+  }
+  .quoteDiv .blockquote .blockquote-footer {
+    font-size: 11px;
+  }
+
+  /* Blogger Name */
+  .Main-blogger-details .navbar .blogger-name {
+    font-size: 17px;
+    margin-right: 15px;
+  }
+  /* Blogger Nav follow Button */
+  .Main-blogger-details .navbar .follow-btn {
+    font-size: 12px;
+    margin-left: 20px;
+  }
+  /* Blogger Naviagtions */
+  .Main-blogger-details .navbar .navbar-nav .nav-item a {
+    font-size: 10px;
+    text-align: center;
+    width: 100%;
+    margin: 0;
+  }
+  /* Blog Name */
+  .Main-blogger-details .blog-name {
+    margin-left: 13px;
+  }
+  .Main-blogger-details .blog-name h3 {
+    font-size: 1.6em;
+    width: 100%;
+    margin: 0;
+    margin-bottom: 3px;
+    text-align: center;
+  }
+  /* Customer Blog Setting */
+  .Main-blogger-details .blog-name button {
+    font-size: 10px;
+  }
+  /* ################ Main Area Now ################ */
+  /* ################ Side bar Now ################ */
+  .sideBar {
+    border: none !important;
+    border-top: 2px solid rgb(131, 131, 131) !important;
+  }
+  /* ############### Activity Area Now ################ */
+
+  /* Contact Us Activity Area Css */
+  /* Contact Us Activity Area Css */
+  .activity-area .col-xsm-8 {
+    width: 66%;
+  }
+  .activity-area .col-xsm-4 {
+    width: 33%;
+  }
+  .activity-area .admin-email-nd-phone {
+    display: flex;
+  }
+  .activity-area .blogger-contact {
+    /* width: 60% !important; */
+    margin-left: 35px;
+    font-size: 12px;
+    display: block;
+  }
+  .activity-area .blogger-contact h5 {
+    font-size: 13px;
+  }
+  /* .activity-area .blogger-img {
+    background-color: antiquewhite;
+    } */
+  .activity-area .blogger-img img {
+    margin: 0;
+    margin-top: 10px !important;
+    width: 70px !important;
+    height: 70px !important;
+    display: block;
+  }
+}
